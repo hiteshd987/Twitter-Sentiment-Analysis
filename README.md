@@ -1,13 +1,18 @@
 # Twitter sentiment analysis Project
 
-This project performs sentiment analysis on Twitter data using Sentiment140 dataset from kaggle and use different machine learning models with lexicon tool as baseline for performance comparison.
+This project performs sentiment analysis on Twitter data using the Sentiment140 dataset from Kaggle and uses different machine learning models with the lexicon tools as a baseline for performance comparison.
 
 ## Folder structure
 
-- `data/`: Contains dataset file.
 - `utils/`: Contains dataset loader file.
 - `models/`: Contains Python files for different machine learning models.
 - `preprocessing/`: Contains script for data preprocessing.
+
+## Dataset CSV
+
+Install the sentiment140 dataset from Kaggle (https://www.kaggle.com/datasets/kazanova/sentiment140) 
+
+Create a folder as 'data' and save the downloaded file with the 'twitterDataset.csv' name
 
 ## Install dependencies
 
